@@ -1,9 +1,3 @@
 # AlternateMC
 
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+I will be adding things to this mod over time, like biomes, blocks, ores, mobs, and anything else I find interesting. This mod will be kept up to date with Minecraft's updates unless I stop working on the project.
