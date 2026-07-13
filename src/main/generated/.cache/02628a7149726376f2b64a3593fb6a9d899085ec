@@ -1,3 +1,6 @@
 // 26.2	-999999999-01-01T00:00:00	AlternateMC/Model Definitions
+00bda8cf3819853711ff781cbad72896e8bb321d assets/alternatemc/blockstates/burnt_wood.json
+9016dde28e88c30730b5bfa0e3b6287776c48c69 assets/alternatemc/items/burnt_wood.json
 776338c0a65c96fa8eef833c91fc6152d86f3463 assets/alternatemc/items/orange.json
+1bc7fc435e50d8e81ed839e5a315fd9e85f15940 assets/alternatemc/models/block/burnt_wood.json
 1f72ffa76f9f8b606c664791accf71628faced6a assets/alternatemc/models/item/orange.json
