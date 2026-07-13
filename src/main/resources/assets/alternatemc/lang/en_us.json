@@ -1,6 +1,8 @@
 {
   "item.alternatemc.orange": "Orange",
 
-  "block.alternatemc.burnt_wood": "Burnt Wood"
+  "block.alternatemc.burnt_wood": "Burnt Wood",
+  "block.alternatemc.cobbled_basalt": "Cobbled Basalt",
+  "block.alternatemc.volcanic_soil": "Volcanic Soil"
 
 }

@@ -21,7 +21,14 @@ import java.util.function.Function;
 public class ModBlocks {
 
     public static final Block Burnt_Wood = registerBlock("burnt_wood",
-            properties -> new Block(properties.strength(4F).sound(SoundType.VINE)));
+            properties -> new Block(
+                    properties.strength(4F, 2).sound(SoundType.VINE).ignitedByLava()));
+
+    public static final Block Volcanic_Soil = registerBlock("volcanic_soil", Block::new);
+
+    public static final Block Cobbled_Basalt = registerBlock("cobbled_basalt", Block::new);
+
+
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(AlternateMC.MOD_ID, name))));
@@ -42,9 +49,11 @@ public class ModBlocks {
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register(output -> {
             output.accept(Burnt_Wood);
+            output.accept(Cobbled_Basalt);
         });
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register(output -> {
             output.accept(Burnt_Wood);
+            output.accept(Volcanic_Soil);
         });
     }
 }

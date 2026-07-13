@@ -1,6 +1,12 @@
 // 26.2	-999999999-01-01T00:00:00	AlternateMC/Model Definitions
 00bda8cf3819853711ff781cbad72896e8bb321d assets/alternatemc/blockstates/burnt_wood.json
+9c4d013855f861f79181db51b4cd8cefd5875437 assets/alternatemc/blockstates/cobbled_basalt.json
+edfcb7eeb4294d7cc488267128125bef674a2743 assets/alternatemc/blockstates/volcanic_soil.json
 9016dde28e88c30730b5bfa0e3b6287776c48c69 assets/alternatemc/items/burnt_wood.json
+cf03f3770b2652c05d626a05bcd71d6a783d79b6 assets/alternatemc/items/cobbled_basalt.json
 776338c0a65c96fa8eef833c91fc6152d86f3463 assets/alternatemc/items/orange.json
+1d198b588aee5331f00f14b09a155a4ee6928e9c assets/alternatemc/items/volcanic_soil.json
 1bc7fc435e50d8e81ed839e5a315fd9e85f15940 assets/alternatemc/models/block/burnt_wood.json
+26c4ff8042be3aa63cd27b2673adb8a48438f5d9 assets/alternatemc/models/block/cobbled_basalt.json
+d72a23decc4b2ace3a53f8b65f6071390ba47685 assets/alternatemc/models/block/volcanic_soil.json
 1f72ffa76f9f8b606c664791accf71628faced6a assets/alternatemc/models/item/orange.json

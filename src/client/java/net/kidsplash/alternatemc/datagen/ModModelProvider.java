@@ -18,6 +18,8 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         blockModelGenerators.createTrivialCube(ModBlocks.Burnt_Wood);
+        blockModelGenerators.createTrivialCube(ModBlocks.Cobbled_Basalt);
+        blockModelGenerators.createTrivialCube(ModBlocks.Volcanic_Soil);
     }
 
     @Override
