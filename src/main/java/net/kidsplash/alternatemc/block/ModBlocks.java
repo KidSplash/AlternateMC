@@ -56,4 +56,8 @@ public class ModBlocks {
             output.accept(Volcanic_Soil);
         });
     }
+
+    public static ResourceKey<Block> getRK(Block block) {
+        return BuiltInRegistries.BLOCK.getResourceKey(block).get();
+    }
 }
