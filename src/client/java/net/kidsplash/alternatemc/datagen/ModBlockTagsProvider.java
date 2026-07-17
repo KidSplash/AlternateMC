@@ -18,6 +18,17 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.getRK(ModBlocks.Cobbled_Basalt));
 
+        tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(ModBlocks.getRK(ModBlocks.Burnt_Wood));
+
+        tag(BlockTags.ANIMALS_SPAWNABLE_ON)
+                .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
+
+        tag(BlockTags.CONVERTABLE_TO_MUD)
+                .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
+
+        tag(BlockTags.SUPPORTS_DRY_VEGETATION)
+                .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
 
     }
 }

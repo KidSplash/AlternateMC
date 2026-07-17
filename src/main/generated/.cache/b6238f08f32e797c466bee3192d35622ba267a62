@@ -1,0 +1,4 @@
+// 26.2	-999999999-01-01T00:00:00	AlternateMC/Block Loot Tables
+2b81e0a4567609505727df3768da05c8a231218f data/alternatemc/loot_table/blocks/burnt_wood.json
+238bb65dd74b57e5513d022fe71e33dde865f379 data/alternatemc/loot_table/blocks/cobbled_basalt.json
+f6f46ac15f1bd3d5b016315316d7c59406611088 data/alternatemc/loot_table/blocks/volcanic_soil.json
