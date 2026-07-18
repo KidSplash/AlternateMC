@@ -12,21 +12,34 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
 import java.util.function.Function;
 
-
 public class ModBlocks {
 
     public static final Block Burnt_Wood = registerBlock("burnt_wood",
             properties -> new Block(
-                    properties.strength(4F, 2).sound(SoundType.VINE).ignitedByLava()));
+                    properties.strength(1.5F, 2F).
+                            sound(SoundType.VINE).
+                            ignitedByLava()
+                            //isValidSpawn(BlockBehaviour.BlockStateBase::isValidSpawn)
+            ));
 
-    public static final Block Volcanic_Soil = registerBlock("volcanic_soil", Block::new);
+    public static final Block Volcanic_Soil = registerBlock("volcanic_soil",
+            properties -> new Block(
+                            properties.strength(0.5F, 0.5F).
+                            sound(SoundType.GRAVEL)
+                            //isValidSpawn(BlockBehaviour.BlockStateBase::isValidSpawn)
+            ));
 
-    public static final Block Cobbled_Basalt = registerBlock("cobbled_basalt", Block::new);
+    public static final Block Cobbled_Basalt = registerBlock("cobbled_basalt",
+            properties -> new Block(
+                    properties.strength(1.5F, 5F).
+                            sound(SoundType.BASALT)
+            ));
 
 
 

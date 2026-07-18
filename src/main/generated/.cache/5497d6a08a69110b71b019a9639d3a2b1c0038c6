@@ -1,2 +1,13 @@
 // 26.2	-999999999-01-01T00:00:00	AlternateMC/Tags for minecraft:block
+d749973a640a14a098540606ca7f03b11700de2c data/minecraft/tags/block/animals_spawnable_on.json
+7827891e51daf1412a867c8eaca6840e4724f8be data/minecraft/tags/block/completes_find_tree_tutorial.json
+68cb9c6d17651bbad0f8ad01e9d4e9eac56bdc25 data/minecraft/tags/block/convertable_to_mud.json
+68cb9c6d17651bbad0f8ad01e9d4e9eac56bdc25 data/minecraft/tags/block/dirt.json
+7827891e51daf1412a867c8eaca6840e4724f8be data/minecraft/tags/block/logs.json
+7827891e51daf1412a867c8eaca6840e4724f8be data/minecraft/tags/block/mineable/axe.json
 0e0ed0224d949283dc97859aed6ef84202cae03d data/minecraft/tags/block/mineable/pickaxe.json
+7827891e51daf1412a867c8eaca6840e4724f8be data/minecraft/tags/block/overworld_natural_logs.json
+68cb9c6d17651bbad0f8ad01e9d4e9eac56bdc25 data/minecraft/tags/block/sniffer_diggable_block.json
+68cb9c6d17651bbad0f8ad01e9d4e9eac56bdc25 data/minecraft/tags/block/supports_azalea.json
+68cb9c6d17651bbad0f8ad01e9d4e9eac56bdc25 data/minecraft/tags/block/supports_bamboo.json
+68cb9c6d17651bbad0f8ad01e9d4e9eac56bdc25 data/minecraft/tags/block/supports_dry_vegetation.json

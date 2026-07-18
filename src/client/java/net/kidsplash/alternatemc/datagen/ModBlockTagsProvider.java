@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.kidsplash.alternatemc.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.tags.BlockTags;
+import org.jspecify.annotations.NonNull;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -14,7 +15,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
     }
 
     @Override
-    protected void addTags(HolderLookup.Provider registries) {
+    protected void addTags(HolderLookup.@NonNull Provider registries) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.getRK(ModBlocks.Cobbled_Basalt));
 
@@ -30,5 +31,28 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.SUPPORTS_DRY_VEGETATION)
                 .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
 
+        tag(BlockTags.COMPLETES_FIND_TREE_TUTORIAL)
+                .add(ModBlocks.getRK(ModBlocks.Burnt_Wood));
+
+        tag(BlockTags.LOGS)
+                .add(ModBlocks.getRK(ModBlocks.Burnt_Wood));
+
+        tag(BlockTags.OVERWORLD_NATURAL_LOGS)
+                .add(ModBlocks.getRK(ModBlocks.Burnt_Wood));
+
+        tag(BlockTags.ANIMALS_SPAWNABLE_ON)
+                .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
+
+        tag(BlockTags.SNIFFER_DIGGABLE_BLOCK)
+                .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
+
+        tag(BlockTags.DIRT)
+                .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
+
+        tag(BlockTags.SUPPORTS_BAMBOO)
+                .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
+
+        tag(BlockTags.SUPPORTS_AZALEA)
+                .add(ModBlocks.getRK(ModBlocks.Volcanic_Soil));
     }
 }
